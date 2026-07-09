@@ -101,7 +101,8 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\InputProcessor.cs" />
-    <Compile Include="Assets\player_idle_states.cs" />
+    <Compile Include="Assets\Characters\Juniper\player_idle_states.cs" />
+    <Compile Include="Assets\Characters\Juniper\player_animator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
