@@ -71,14 +71,14 @@
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Projectile_Launcher.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossHurtbox.cs" />
-    <Compile Include="Assets\Scripts\Monobehaviours\PlayerHurtbox.cs" />
+    <Compile Include="Assets\Characters\Juniper\PlayerHurtbox.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\ControlsMenu.cs" />
     <Compile Include="Assets\Scripts\Other\ControlBindings.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\GameOverMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\TissyBlade.cs" />
     <Compile Include="Assets\Scripts\Other\Item.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Hitbox.cs" />
-    <Compile Include="Assets\Scripts\Monobehaviours\PlayerController.cs" />
+    <Compile Include="Assets\Characters\Juniper\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\AnimationPrefabParent.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossController.cs" />
@@ -91,7 +91,7 @@
     <Compile Include="Assets\Boss_Retreat.cs" />
     <Compile Include="Assets\Setup.cs" />
     <Compile Include="Assets\Scripts\Other\SceneData.cs" />
-    <Compile Include="Assets\Scripts\Monobehaviours\PlayerStatistics.cs" />
+    <Compile Include="Assets\Characters\Juniper\PlayerStatistics.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\HealthBar.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\ProjectilePrefab.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossStatistics.cs" />
@@ -101,6 +101,7 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\InputProcessor.cs" />
+    <Compile Include="Assets\player_idle_states.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

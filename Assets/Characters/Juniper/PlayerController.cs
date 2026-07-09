@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
         IP = GetComponent<InputProcessor>();
         hitbox = GetComponent<Hitbox>();
         col = GetComponent<CircleCollider2D>();
-        fxPosition = GameObject.FindGameObjectWithTag("FX Position").transform;
+        // fxPosition = GameObject.FindGameObjectWithTag("FX Position").transform;
     }
 
     void Start()

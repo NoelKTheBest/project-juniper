@@ -50,7 +50,7 @@ public class PlayerStatistics : MonoBehaviour
         hp = currentHP;
         atk = currentAtk;
 
-        hb.SetHP(hp);
+        // hb.SetHP(hp);
     }
 
     void Update()

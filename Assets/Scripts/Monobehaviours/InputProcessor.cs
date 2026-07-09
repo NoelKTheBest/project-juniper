@@ -146,6 +146,7 @@ public class InputProcessor : MonoBehaviour
         hDir = Input.GetAxisRaw("Horizontal");
         vDir = Input.GetAxisRaw("Vertical");
 
+        Debug.Log(hDir + " : " + vDir);
         hDir2 = Input.GetAxis("HJoystick");
         vDir2 = Input.GetAxis("VJoystick");
 
