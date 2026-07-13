@@ -68,11 +68,13 @@
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\EnemyAssist.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Bullet.cs" />
+    <Compile Include="Assets\Characters\Juniper\player_animator.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Projectile_Launcher.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossHurtbox.cs" />
     <Compile Include="Assets\Characters\Juniper\PlayerHurtbox.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\ControlsMenu.cs" />
+    <Compile Include="Assets\Characters\Juniper\player_idle_states.cs" />
     <Compile Include="Assets\Scripts\Other\ControlBindings.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\GameOverMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\TissyBlade.cs" />
@@ -101,8 +103,6 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\InputProcessor.cs" />
-    <Compile Include="Assets\Characters\Juniper\player_idle_states.cs" />
-    <Compile Include="Assets\Characters\Juniper\player_animator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -122,6 +122,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\sistema ia.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
   </ItemGroup>
