@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
     //[HideInInspector] public bool projectileReady;
 
     //---Components----------------------------------
-    [HideInInspector] public Transform firepath;
+    public Transform firepath;
     private Rigidbody2D rb;
     private InputProcessor IP;
     private PlayerStatistics stats;
@@ -142,6 +142,7 @@ public class PlayerController : MonoBehaviour
             
             if (IP.pbutton && timeToCount == shootingWait)
             {
+                // Debug.Log("Shoot projectile");
                 StartCoroutine(ShootProjectile());
             }
 
@@ -385,7 +386,7 @@ public class PlayerController : MonoBehaviour
         //sound.Play();
 
         GameObject ammoInstance;
-        ammoInstance = objectPooler.SpawnFromPool("Tissy's Blade", firepath.position, firepath.right, firepath.rotation);
+        ammoInstance = objectPooler.SpawnFromPool("ConDiv", firepath.position, firepath.right, firepath.rotation);
         //ammoInstance = objectPooler.GetPooledObject();
 
         //projectileReady = false;
