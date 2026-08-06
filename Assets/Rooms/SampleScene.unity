@@ -10186,8 +10186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pools:
   - tag: ConDiv
-    prefab: {fileID: 0}
-    size: 5
+    prefab: {fileID: 6309705719426523211, guid: 851574a5ade5766459ec6b004c1a5350,
+      type: 3}
+    size: 2
 --- !u!4 &1136105062
 Transform:
   m_ObjectHideFlags: 0
