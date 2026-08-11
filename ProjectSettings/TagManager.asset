@@ -15,15 +15,15 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
-  - 
-  - 
-  - Player Hitboxes
-  - Enemy Hitboxes
   - Player
-  - 
+  - Enemy
+  - Player Attacks
+  - Enemy Attacks
+  - Player Projectiles
+  - Enemy Projectiles
   - 
   - 
   - 

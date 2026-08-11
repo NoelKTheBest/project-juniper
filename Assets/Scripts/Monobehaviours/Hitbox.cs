@@ -64,12 +64,12 @@ public class Hitbox : MonoBehaviour
 
         //collider1.GetComponent<AttackCollider>();
 
-        if (gameObject.tag == "Enemy")
+        if (gameObject.tag == "Enemy Attacks")
         {
             collider1 = Physics2D.OverlapBox(hitboxPoint, hitboxSize + hitboxSizeOffset, 0, mask1);
         }
 
-        if (gameObject.tag == "Player")
+        if (gameObject.tag == "Player Attacks")
         {
             collider2 = Physics2D.OverlapBox(hitboxPoint, hitboxSize + hitboxSizeOffset, 0, mask2);
             //Debug.Log(collider2); - mouse hitbox detected when collider is enabled
