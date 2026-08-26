@@ -291,7 +291,7 @@ PlayerSettings:
       m_Height: 256
       m_Kind: 0
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 9dc76bfbbba463049b5a9b5cdb215076, type: 3}
+      m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -318,7 +318,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 9dc76bfbbba463049b5a9b5cdb215076, type: 3}
+      m_Icon: {fileID: 2800000, guid: 9ac44792551473d4ca3ef15fb3aca812, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

@@ -1410,13 +1410,13 @@ AnimatorStateMachine:
   - first: {fileID: -4583625389393416658}
     second:
     - {fileID: 4674882952122029176}
+  - first: {fileID: 4068045546864690125}
+    second:
+    - {fileID: 8288939105145271005}
   - first: {fileID: 6975001575146110167}
     second:
     - {fileID: -5250073275604641084}
     - {fileID: -627211927608750092}
-  - first: {fileID: 4068045546864690125}
-    second:
-    - {fileID: 8288939105145271005}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 160, y: 170, z: 0}
   m_EntryPosition: {x: 160, y: 250, z: 0}
@@ -3777,7 +3777,7 @@ AnimatorController:
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
-    m_SyncedLayerIndex: 1
+    m_SyncedLayerIndex: -1
     m_DefaultWeight: 0
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 1
@@ -3813,12 +3813,12 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 3111631547953681714}
-    second:
-    - {fileID: 5753463948781284069}
   - first: {fileID: -6812786982208575735}
     second:
     - {fileID: 4829978550296579221}
+  - first: {fileID: 3111631547953681714}
+    second:
+    - {fileID: 5753463948781284069}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 300, y: -10, z: 0}
   m_EntryPosition: {x: 300, y: -60, z: 0}
@@ -4898,9 +4898,6 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -1337238074233599745}
-    second:
-    - {fileID: -8713656362095643070}
   - first: {fileID: -4067863317462048512}
     second:
     - {fileID: -5485630916283279983}
@@ -4912,6 +4909,9 @@ AnimatorStateMachine:
   - first: {fileID: 202159393487393600}
     second:
     - {fileID: 7270504574465480193}
+  - first: {fileID: -1337238074233599745}
+    second:
+    - {fileID: -8713656362095643070}
   - first: {fileID: -951842622304043455}
     second:
     - {fileID: -4537044868658541074}
