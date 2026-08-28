@@ -94,6 +94,8 @@ public class PlayerController : MonoBehaviour
         hitbox = GetComponent<Hitbox>();
         col = GetComponent<CircleCollider2D>();
         // fxPosition = GameObject.FindGameObjectWithTag("FX Position").transform;
+
+        GameState.numberOfFans = 1;
     }
 
     void Start()

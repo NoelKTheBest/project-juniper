@@ -1,0 +1,1 @@
+I will need to see how to make a singleton because I may need to use it to make the game state so that it can derive from whatever class I need it to. Whether that be a monobehavior or maybe a scriptable object. Also relearn how to make and use scriptable objects.
