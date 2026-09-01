@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnemyAssist.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Bullet.cs" />
     <Compile Include="Assets\Characters\Juniper\player_animator.cs" />
+    <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Projectile_Launcher.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossHurtbox.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Characters\Juniper\InputProcessor.cs" />
-    <Compile Include="Assets\Scripts\GameState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
