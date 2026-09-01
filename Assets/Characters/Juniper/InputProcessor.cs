@@ -160,6 +160,7 @@ public class InputProcessor : MonoBehaviour
         
         attack = Input.GetButtonDown("Fire1");
         attack2 = Input.GetButtonDown("F1Joystick");
+        Debug.Log(attack);
         
         proj = Input.GetButtonDown("Fire3");
         proj2 = Input.GetButtonDown("F3Joystick");
