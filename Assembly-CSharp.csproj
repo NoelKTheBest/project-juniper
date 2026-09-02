@@ -68,20 +68,20 @@
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\EnemyAssist.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Bullet.cs" />
-    <Compile Include="Assets\Characters\Juniper\player_animator.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\player_animator.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Projectile_Launcher.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossHurtbox.cs" />
-    <Compile Include="Assets\Characters\Juniper\PlayerHurtbox.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\PlayerHurtbox.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\ControlsMenu.cs" />
-    <Compile Include="Assets\Characters\Juniper\player_idle_states.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\player_idle_states.cs" />
     <Compile Include="Assets\Scripts\Other\ControlBindings.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\GameOverMenu.cs" />
-    <Compile Include="Assets\Characters\Juniper\TissyBlade.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\TissyBlade.cs" />
     <Compile Include="Assets\Scripts\Other\Item.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Hitbox.cs" />
-    <Compile Include="Assets\Characters\Juniper\PlayerController.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\AnimationPrefabParent.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossController.cs" />
@@ -94,7 +94,7 @@
     <Compile Include="Assets\Characters\Basic Enemy\Boss_Retreat.cs" />
     <Compile Include="Assets\Setup.cs" />
     <Compile Include="Assets\Scripts\Other\SceneData.cs" />
-    <Compile Include="Assets\Characters\Juniper\PlayerStatistics.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\PlayerStatistics.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\HealthBar.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\ProjectilePrefab.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossStatistics.cs" />
@@ -103,7 +103,7 @@
     <Compile Include="Assets\Scripts\Other\CameraExtensions.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
-    <Compile Include="Assets\Characters\Juniper\InputProcessor.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\InputProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
