@@ -1,0 +1,23 @@
+{
+  "name": "newTemplate",
+  "parameters": [],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "states": [],
+    "subStateMachines": [
+      {
+        "stateMachineName": "yugioh",
+        "index": 0,
+        "states": [],
+        "subStateMachines": []
+      },
+      {
+        "stateMachineName": "pokemon",
+        "index": 0,
+        "states": [],
+        "subStateMachines": []
+      }
+    ]
+  }
+}

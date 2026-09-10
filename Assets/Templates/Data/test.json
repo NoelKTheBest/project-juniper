@@ -1,0 +1,99 @@
+{
+  "name": "test",
+  "parameters": [
+    "isMoving 4"
+  ],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "states": [
+      {
+        "stateName": "Idle",
+        "stateMotion": "Basic_Idle",
+        "index": 0,
+        "behaviours": [],
+        "transitions": []
+      },
+      {
+        "stateName": "Move",
+        "stateMotion": "Basic_Move",
+        "index": 0,
+        "behaviours": [],
+        "transitions": []
+      }
+    ],
+    "subStateMachines": [
+      {
+        "stateMachineName": "subStateMachine",
+        "index": 0,
+        "states": [
+          {
+            "stateName": "C",
+            "stateMotion": null,
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          }
+        ],
+        "subStateMachines": [
+          {
+            "stateMachineName": "deeperStateMachine",
+            "index": 0,
+            "states": [
+              {
+                "stateName": "D",
+                "stateMotion": null,
+                "index": 0,
+                "behaviours": [],
+                "transitions": []
+              }
+            ],
+            "subStateMachines": [
+              {
+                "stateMachineName": "Branch",
+                "index": 0,
+                "states": [],
+                "subStateMachines": [
+                  {
+                    "stateMachineName": "subBranch1",
+                    "index": 0,
+                    "states": [
+                      {
+                        "stateName": "happy",
+                        "stateMotion": null,
+                        "index": 0,
+                        "behaviours": [],
+                        "transitions": []
+                      }
+                    ],
+                    "subStateMachines": []
+                  },
+                  {
+                    "stateMachineName": "subBranch2",
+                    "index": 1,
+                    "states": [
+                      {
+                        "stateName": "sad",
+                        "stateMotion": null,
+                        "index": 0,
+                        "behaviours": [],
+                        "transitions": []
+                      }
+                    ],
+                    "subStateMachines": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stateMachineName": "subSub",
+        "index": 0,
+        "states": [],
+        "subStateMachines": []
+      }
+    ]
+  }
+}

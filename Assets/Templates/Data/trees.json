@@ -1,0 +1,63 @@
+{
+  "name": "trees",
+  "parameters": [
+    "isMoving 4"
+  ],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "states": [
+      {
+        "stateName": "Idle",
+        "stateMotion": "Basic_Idle",
+        "index": 0,
+        "behaviours": [],
+        "transitions": []
+      },
+      {
+        "stateName": "Move",
+        "stateMotion": "Basic_Move",
+        "index": 1,
+        "behaviours": [],
+        "transitions": []
+      }
+    ],
+    "subStateMachines": [
+      {
+        "stateMachineName": "subStateMachine",
+        "index": 0,
+        "states": [
+          {
+            "stateName": "C",
+            "stateMotion": null,
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          }
+        ],
+        "subStateMachines": [
+          {
+            "stateMachineName": "deeperStateMachine",
+            "index": 0,
+            "states": [
+              {
+                "stateName": "D",
+                "stateMotion": null,
+                "index": 0,
+                "behaviours": [],
+                "transitions": []
+              }
+            ],
+            "subStateMachines": []
+          }
+        ]
+      },
+      {
+        "stateMachineName": "subSub",
+        "index": 1,
+        "states": [],
+        "subStateMachines": []
+      }
+    ]
+  }
+}

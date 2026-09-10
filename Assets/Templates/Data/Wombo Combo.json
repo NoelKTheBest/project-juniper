@@ -1,0 +1,20 @@
+{
+  "name": "Wombo Combo",
+  "parameters": [],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "behaviours": [],
+    "transitions": [],
+    "states": [
+      {
+        "stateName": "Basic",
+        "stateMotion": "",
+        "index": 0,
+        "behaviours": [],
+        "transitions": []
+      }
+    ],
+    "subStateMachines": []
+  }
+}

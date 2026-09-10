@@ -1,0 +1,57 @@
+{
+  "name": "double jump",
+  "parameters": [],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "behaviours": [],
+    "transitions": [],
+    "states": [],
+    "subStateMachines": [
+      {
+        "stateMachineName": "spongebob",
+        "index": 0,
+        "behaviours": [],
+        "transitions": [],
+        "states": [
+          {
+            "stateName": "spongebob squarepants",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "patrick star",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "squidward tentacles",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "eugene krabs",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "sandy cheeks",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          }
+        ],
+        "subStateMachines": []
+      }
+    ]
+  }
+}

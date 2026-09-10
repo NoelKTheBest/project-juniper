@@ -1,0 +1,95 @@
+{
+  "name": "Deep Blue Sea",
+  "parameters": [],
+  "rootStateMachine": {
+    "stateMachineName": "Base Layer",
+    "index": 0,
+    "behaviours": [],
+    "transitions": [],
+    "states": [],
+    "subStateMachines": [
+      {
+        "stateMachineName": "Bikini Bottom",
+        "index": 0,
+        "behaviours": [],
+        "transitions": [],
+        "states": [
+          {
+            "stateName": "Spongebob Squarepants",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "Patrick Star",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "Squidward Tentacles",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "eugene krabs",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "sandy cheeks",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "gary the snail",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "mrs. puff",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          },
+          {
+            "stateName": "Flats The Flounder",
+            "stateMotion": "",
+            "index": 0,
+            "behaviours": [],
+            "transitions": []
+          }
+        ],
+        "subStateMachines": [
+          {
+            "stateMachineName": "The Krusty Krab",
+            "index": 0,
+            "behaviours": [],
+            "transitions": [],
+            "states": [],
+            "subStateMachines": []
+          },
+          {
+            "stateMachineName": "The Chum Bucket",
+            "index": 0,
+            "behaviours": [],
+            "transitions": [],
+            "states": [],
+            "subStateMachines": []
+          }
+        ]
+      }
+    ]
+  }
+}
