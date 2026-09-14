@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\Monobehaviours\HealthBar.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\ProjectilePrefab.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\BossStatistics.cs" />
+    <Compile Include="Assets\Attack1.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\ObjectPooler.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\DrawRoom.cs" />
     <Compile Include="Assets\Scripts\Other\CameraExtensions.cs" />
