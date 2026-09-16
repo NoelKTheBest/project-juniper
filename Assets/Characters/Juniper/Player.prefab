@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 5225934903785874236}
   - component: {fileID: 5225934903785874237}
   - component: {fileID: 5225934903785874234}
-  - component: {fileID: 5225934903785874213}
+  - component: {fileID: 1117573086449983143}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -458,7 +458,7 @@ MonoBehaviour:
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5225934903785874213
+--- !u!114 &1117573086449983143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5225934903785874226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4f31fb9ba677a64ca59b2d22c1aff6b, type: 3}
+  m_Script: {fileID: 11500000, guid: 453792abbe022334a9f5c4f1751d4cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   wasHit: 0

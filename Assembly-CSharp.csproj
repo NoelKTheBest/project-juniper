@@ -83,7 +83,6 @@
     <Compile Include="Assets\Characters\Juniper\Behaviours\TissyBlade.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Other\Item.cs" />
-    <Compile Include="Assets\Scripts\Monobehaviours\Hitbox.cs" />
     <Compile Include="Assets\Templates\01\Character.cs" />
     <Compile Include="Assets\Characters\Juniper\Behaviours\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\AnimationPrefabParent.cs" />
@@ -109,6 +108,8 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Characters\Juniper\Behaviours\InputProcessor.cs" />
+    <Compile Include="Assets\Scripts\Monobehaviours\Hitbox.cs" />
+    <Compile Include="Assets\Characters\Juniper\Behaviours\ClosestEnemyReference.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
