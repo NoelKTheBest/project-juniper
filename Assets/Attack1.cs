@@ -5,37 +5,50 @@ using UnityEngine;
 public class Attack1 : StateMachineBehaviour
 {
 
+   public float windowStart;
+   public float windowEnd;
+
     PlayerController player;
 
 
     // OnStateEnter is called before OnStateEnter is called on any state inside this state machine
-    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-    //    animator.updateMode = AnimatorUpdateMode.AnimatePhysics;
-    //    Debug.Log(Time.time);
-       Debug.Log("OnStateEnter: " + animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
-       Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-    }
+   //  override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+   //  {
+   //  //    animator.updateMode = AnimatorUpdateMode.AnimatePhysics;
+   //  //    Debug.Log(Time.time);
+   //     Debug.Log("OnStateEnter: " + animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+   //     Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+   //  }
 
     // OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+       float nTime = animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+       if (nTime > windowStart && nTime < windowEnd)
+      {
+         InputProcessor ip = animator.GetComponent<InputProcessor>();
+         if (ip.abutton)
+         {
+            animator.SetInteger("Direction", ip.attackDirection);
+            animator.SetTrigger("Sub-Combo");
+            animator.SetTrigger("Combo");
+         }
+      }
     }
 
     // OnStateExit is called before OnStateExit is called on any state inside this state machine
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-    //    Debug.Log(Time.time);
-    //    animator.updateMode = AnimatorUpdateMode.Normal;
-       Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-    }
+   //  override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+   //  {
+   //  //    Debug.Log(Time.time);
+   //  //    animator.updateMode = AnimatorUpdateMode.Normal;
+   //     Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+   //  }
 
     // OnStateMove is called before OnStateMove is called on any state inside this state machine
-    override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
+   //  override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+   //  {
        
-    }
+   //  }
 
     // OnStateIK is called before OnStateIK is called on any state inside this state machine
     //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
