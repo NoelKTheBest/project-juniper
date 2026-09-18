@@ -110,6 +110,7 @@ public class PlayerController : MonoBehaviour
         idle = true;
     }
 
+    #region Update Functions
     //edit rb.velocity in this function
     void FixedUpdate()
     {
@@ -177,13 +178,18 @@ public class PlayerController : MonoBehaviour
             {
                 AnimateMovement();
             }
+
+            // Debug.Log("attackReady:? " + attackReady);
+            Debug.Log("windowOpen:? " + openWindow);
         }
         else
         {
             rb.velocity = Vector2.zero;
         }
     }
-    
+    #endregion
+
+    #region Animation Methods
     void AnimateAttacks()
     {
         //Debug.Log("ready: " + attackReady + ", testing: " + testingHurtbox + ", openWindow: " + openWindow);
@@ -206,7 +212,8 @@ public class PlayerController : MonoBehaviour
         }
         
     }
-    
+    #endregion
+
     IEnumerator Step()
     {
         #region Note

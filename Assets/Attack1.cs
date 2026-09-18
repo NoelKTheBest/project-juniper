@@ -26,13 +26,19 @@ public class Attack1 : StateMachineBehaviour
        float nTime = animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
        if (nTime > windowStart && nTime < windowEnd)
       {
-         InputProcessor ip = animator.GetComponent<InputProcessor>();
-         if (ip.abutton)
-         {
-            animator.SetInteger("Direction", ip.attackDirection);
-            animator.SetTrigger("Sub-Combo");
-            animator.SetTrigger("Combo");
-         }
+         player.openWindow = true;
+
+         // InputProcessor ip = animator.GetComponent<InputProcessor>();
+         // if (ip.abutton)
+         // {
+         //    animator.SetInteger("Direction", ip.attackDirection);
+         //    animator.SetTrigger("Sub-Combo");
+         //    animator.SetTrigger("Combo");
+         // }
+      }
+      else
+      {
+         player.openWindow = false;
       }
     }
 
@@ -69,5 +75,6 @@ public class Attack1 : StateMachineBehaviour
     override public void OnStateMachineExit(Animator animator, int stateMachinePathHash)
     {
        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+       player.openWindow = false;
     }
 }
