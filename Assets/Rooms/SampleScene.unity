@@ -4117,7 +4117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &683974472
 Animator:
   serializedVersion: 5
@@ -12773,7 +12773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1168265106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19974,7 +19974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1624962774
 Transform:
   m_ObjectHideFlags: 0
@@ -20558,7 +20558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1736158907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22612,8 +22612,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
         type: 3}
+      propertyPath: dashTime
+      value: 0.1775
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
       propertyPath: stepTime
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: accelTime
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: dashSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: decelTime
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
         type: 3}
@@ -22622,8 +22642,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
         type: 3}
+      propertyPath: accelAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: decelAmount
+      value: 4.7999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: dashCooldown
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
       propertyPath: stepCooldown
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225934903785874237, guid: 867a30404cf147f40933e4b738c15375,
+        type: 3}
+      propertyPath: totalDashTime
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 867a30404cf147f40933e4b738c15375, type: 3}

@@ -28,7 +28,7 @@ public class ShiftMode : StateMachineBehaviour
     override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         shiftModeActive = Input.GetKeyDown(KeyCode.LeftShift);
-        Debug.Log("shift mode active:? " + shiftModeActive);
+        // Debug.Log("shift mode active:? " + shiftModeActive);
     }
 
     // OnStateIK is called before OnStateIK is called on any state inside this state machine

@@ -59,7 +59,7 @@
     <UnityVersion>2021.3.45f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\waffl\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\waffl\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Monobehaviours\Hitbox.cs" />
@@ -68,11 +68,13 @@
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Boss_Attack.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\AdvanceCombo.cs" />
+    <Compile Include="Assets\Reset.cs" />
     <Compile Include="Assets\AttackReset.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\EnemyAssist.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\Bullet.cs" />
     <Compile Include="Assets\Characters\Juniper\Behaviours\player_animator.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
+    <Compile Include="Assets\ShiftMode.cs" />
     <Compile Include="Assets\Scripts\StateMachineBehaviours\Projectile_Launcher.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Templates\01\Basic_Move.cs" />
@@ -112,8 +114,6 @@
     <Compile Include="Assets\Scripts\Monobehaviours\EnvironmentStatus.cs" />
     <Compile Include="Assets\Scripts\Monobehaviours\FollowPlayer.cs" />
     <Compile Include="Assets\Characters\Juniper\Behaviours\InputProcessor.cs" />
-    <Compile Include="Assets\Reset.cs" />
-    <Compile Include="Assets\ShiftMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

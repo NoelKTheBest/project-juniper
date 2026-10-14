@@ -151,12 +151,12 @@ public class PlayerController : MonoBehaviour
 
             if (IP.dbutton && canDash)
             {
-                if (IP.fxAnimationDirection == 4)
-                    objectPooler.SpawnFromPool("Player Dash FX Right", fxPosition.position, 
-                        fxPosition.right, fxPosition.rotation);
-                if (IP.fxAnimationDirection == 3)
-                    objectPooler.SpawnFromPool("Player Dash FX Left", transform.position,
-                        fxPosition.right, fxPosition.rotation);
+                // if (IP.fxAnimationDirection == 4)
+                //     objectPooler.SpawnFromPool("Player Dash FX Right", fxPosition.position, 
+                //         fxPosition.right, fxPosition.rotation);
+                // if (IP.fxAnimationDirection == 3)
+                //     objectPooler.SpawnFromPool("Player Dash FX Left", transform.position,
+                //         fxPosition.right, fxPosition.rotation);
 
                 StartCoroutine(Dash());
                 //animator.SetTrigger("Dash");
@@ -180,7 +180,7 @@ public class PlayerController : MonoBehaviour
             }
 
             // Debug.Log("attackReady:? " + attackReady);
-            Debug.Log("windowOpen:? " + openWindow);
+            // Debug.Log("windowOpen:? " + openWindow);
         }
         else
         {
@@ -330,6 +330,7 @@ public class PlayerController : MonoBehaviour
         // Main dash stops
         for (float duration = dashTime; duration > 0; duration -= Time.fixedDeltaTime)
         {
+            Debug.Log("Duration: " + duration);
             yield return new WaitForFixedUpdate();
         }
 
